@@ -49,5 +49,5 @@ jobs:
       with:
         app-name: 'THBRestTest'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_73f3705a5ff1447891cb8afd39241a46 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_eaa340dec9c647efbdd41e46d9fe478f }}
         package: '*.jar'
