@@ -19,7 +19,7 @@ jobs:
     - name: Set up Java version
       uses: actions/setup-java@v1
       with:
-        java-version: '8'
+        java-version: '11'
 
     - name: Build with Maven
       run: mvn clean install
@@ -49,5 +49,5 @@ jobs:
       with:
         app-name: 'THBRestTest'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_72236698955a4bbab5e7fd75bac20956 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_f8f1dc91e66e45b6a86908e24cdd6c9f }}
         package: '*.jar'
